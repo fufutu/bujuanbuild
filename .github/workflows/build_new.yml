@@ -3,7 +3,7 @@ name: Build Bujuan APK for Xiaodu 1S
 on:
   workflow_dispatch:
   push:
-    branches: [ bujuanbuild ] # 新仓库的默认分支是 build，不是 main
+    branches: [ build ] # 新仓库的默认分支是 build，不是 main
 
 jobs:
   build:
